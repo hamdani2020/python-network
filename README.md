@@ -20,7 +20,7 @@ A robust implementation of a client-server socket communication system in Python
 
 1. Clone the repository or download the source files:
    ```bash
-   git clone github.com/python-network.git
+   git clone https://github.com/hamdani2020/python-network 
    cd python-network
    ```
 
@@ -36,8 +36,9 @@ A robust implementation of a client-server socket communication system in Python
 1. Open a terminal and navigate to the project directory
 2. Run the server:
    ```bash
-   python server.py
+   python3 server.py
    ```
+   ![image](./resources/server.png)
 3. The server will start listening on localhost (127.0.0.1) port 12345
 
 ### Running the Client
@@ -45,8 +46,9 @@ A robust implementation of a client-server socket communication system in Python
 1. Open another terminal window
 2. Run the client:
    ```bash
-   python client.py
+   python3 client.py
    ```
+   ![image](./resources/client.png)
 3. The client will connect to the server, send a test message, and display the response
 
 ### Custom Configuration
